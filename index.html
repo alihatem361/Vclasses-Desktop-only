@@ -68,7 +68,8 @@
       }
 
       .btn-filled:hover {
-        background-color: rgba(233, 78, 27, 0.9);
+        background-color: var(--color-orange-secondary);
+        color: var(--color-orange-primary);
       }
 
       .btn-base {
@@ -300,11 +301,6 @@
 
           <!-- Buttons Section -->
           <div class="buttons-container">
-            <!-- View Content Button -->
-            <button class="btn-base btn-outline" onclick="viewContent()">
-              مشاهدة المحتوي
-            </button>
-
             <!-- Download App Button -->
             <button class="btn-base btn-filled" onclick="downloadApp()">
               <!-- Download Icon -->
@@ -325,6 +321,10 @@
                 />
               </svg>
               <span>تحميل التطبيق</span>
+            </button>
+            <!-- View Content Button -->
+            <button class="btn-base btn-outline" onclick="viewContent()">
+              مشاهدة المحتوي
             </button>
           </div>
         </div>
