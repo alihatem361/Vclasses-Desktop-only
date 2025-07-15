@@ -100,7 +100,7 @@
 
       .main-container {
         min-height: 100vh;
-        background-color: white;
+        background-color: var(--color-orange-tertiary);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -304,6 +304,7 @@
             <!-- Download App Button -->
             <button class="btn-base btn-filled" onclick="downloadApp()">
               <!-- Download Icon -->
+              <span>تحميل التطبيق</span>
               <svg
                 width="24"
                 height="24"
@@ -320,7 +321,6 @@
                   fill="white"
                 />
               </svg>
-              <span>تحميل التطبيق</span>
             </button>
             <!-- View Content Button -->
             <button class="btn-base btn-outline" onclick="viewContent()">
