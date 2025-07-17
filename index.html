@@ -46,8 +46,12 @@
     <style>
       :root {
         --color-orange-primary: #e94e1b;
-        --color-orange-secondary: #fbdbd0;
-        --color-orange-tertiary: #fef6f3;
+        --color-orange-secondary: hsl(
+          from var(--color-orange-primary) h 80% 80%
+        );
+        --color-orange-tertiary: hsl(
+          from var(--color-orange-primary) h 20% 95%
+        );
         --color-dark-primary: #1c374a;
         --font-family-base: "Almarai", -apple-system, Roboto, Helvetica,
           sans-serif;
